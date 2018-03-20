@@ -9,10 +9,11 @@
     <body>
  
     <?php   
+	# Shows the user input 
     $info = $_POST["info"];
     echo "<p>Your input is: $info</p>";
 
-   
+   # Determines if the value is even, odd, or not numeric.
     if (is_numeric($info) && ($info % 2 == 0)){
 		echo("<p>$info is an even numeric value.</p>");
 	} elseif (is_numeric($info) && ($info % 2 > 0)) {
