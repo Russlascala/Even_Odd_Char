@@ -15,35 +15,35 @@
 
 	# Determines if $EvenNum is Even, odd, or not numeric
 	if (is_numeric($EvenNum) && $EvenNum % 2 == 0){
-		echo("<p>$EvenNum is a numeric, and even.</p>");
+		echo("<p>$EvenNum is an even numeric value.</p>");
 	} elseif (is_numeric($EvenNum) && $EvenNum % 2 > 0) {
-		echo("<p>$EvenNum is a numeric, and odd.</p>");
+		echo("<p>$EvenNum is an odd numeric value.</p>");
 	} else {
-		echo("<p>$EvenNum is not numeric</p>");
+		echo("<p>$EvenNum is not numeric.</p>");
 	}
 
 	# Determines if $OddNum is Even, odd, or not numeric
 	if (is_numeric($OddNum) && $OddNum % 2 == 0){
-		echo("<p>$OddNum is a numeric, and even.</p>");
+		echo("<p>$OddNum is an even numeric value.</p>");
 	} elseif (is_numeric($OddNum) && $OddNum % 2 > 0) {
-		echo("<p>$OddNum is a numeric, and odd.</p>");
+		echo("<p>$OddNum is an odd numeric value.</p>");
 	} else {
-		echo("<p>$OddNum is not numeric</p>");
+		echo("<p>$OddNum is not numeric.</p>");
 	}
 
 	# Determines if $NotNum is Even, odd, or not numeric
 	if (is_numeric($NotNum) && $NotNum % 2 == 0){
-		echo("<p>$NotNum is a numeric, and even.</p>");
+		echo("<p>$NotNum is an even numeric value.</p>");
 	} elseif (is_numeric($NotNum) && $NotNum % 2 > 0) {
-		echo("<p>$NotNum is a numeric, and odd.</p>");
+		echo("<p>$NotNum is an odd numeric value.</p>");
 	} else {
-		echo("<p>$NotNum is not numeric</p>");
+		echo("<p>$NotNum is not numeric.</p>");
 	}
 	
 	?>
 	<!-- Input from user, and outputs the value and  determines if 
 	its if the value is Even, odd, or not numeric  -->
-    <h3>Enter a input below:</h3>
+    <h3>Enter a input below to see if it is even, odd, or not numeric: </h3>
     <form name="form" action="findOut.php" method="post">
     <input name="info" type = "text">
     <input type="submit" class="button" name="select" value="select" />
